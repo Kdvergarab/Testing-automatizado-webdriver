@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Archivos de log
+logs/
+*.log
+npm-debug.log*
+
+# Directorios de cobertura
+coverage/
+
+# Archivos temporales
+.tmp/
+.temp/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Reportes
+allure-results/
+allure-report/
+junit-results/
+
+# Otros
+.idea/
+.vscode/
+*.swp
+*.swo
