@@ -1,5 +1,5 @@
-const { $ } = require('@wdio/globals');
-const Page = require('./page');
+import { $ } from '@wdio/globals';
+import Page from './page.js';
 
 /**
  * Page object para la página principal de LATAM Airlines
@@ -53,4 +53,4 @@ class LatamPage extends Page {
     }
 }
 
-module.exports = new LatamPage();
+export default new LatamPage();

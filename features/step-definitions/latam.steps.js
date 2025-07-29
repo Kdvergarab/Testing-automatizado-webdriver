@@ -1,7 +1,7 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
-const { expect, $ } = require('@wdio/globals');
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { expect, $ } from '@wdio/globals';
 
-const LatamPage = require('../pageobjects/latam.page');
+import LatamPage from '../pageobjects/latam.page.js';
 
 Given(/^Estoy en la página principal de LATAM Airlines$/, async () => {
     await LatamPage.open();

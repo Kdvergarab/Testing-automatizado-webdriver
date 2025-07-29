@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio run ./wdio.conf.js",
-    "test:latam": "wdio run ./wdio.conf.js --spec ./features/latam_cotizacion.feature",
+    "test2": "wdio run ./wdio.conf.js",
+    "test": "wdio run ./wdio.conf.js --spec ./features/latam_cotizacion.feature",
     "test:login": "wdio run ./wdio.conf.js --spec ./features/login.feature",
     "test:parallel": "wdio run ./wdio.conf.js --maxInstances 5",
     "test:all": "npm run test:latam && npm run test:login",
